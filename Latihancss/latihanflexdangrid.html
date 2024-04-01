@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .grid-item{
+            background-color: rgb(23, 182, 184);
+            padding: 20px;
+            text-align: center;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-item{
+            background-color: rgb(129, 95, 160);
+            padding: 20px;
+            text-align: center;
+            flex: 1 0 30%;
+            margin: 30px;
+        }
+    </style>
+</head>
+<h2>Latihan HTML CSS</h2>
+<body>
+ <div class = "grid-container">
+    <div class = "grid-item">1</div>
+    <div class = "grid-item">2</div>
+    <div class = "grid-item">3</div>
+    <div class = "grid-item">4</div>
+    <div class = "grid-item">5</div>
+    <div class = "grid-item">6</div>
+ </div>
+ <div class = "flex-container">
+    <div class = "flex-item">1</div>
+    <div class = "flex-item">2</div>
+    <div class = "flex-item">3</div>
+    <div class = "flex-item">4</div>
+    <div class = "flex-item">5</div>
+    <div class = "flex-item">6</div>
+ </div>
+</body>
+</html>
